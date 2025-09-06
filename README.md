@@ -1,6 +1,3 @@
-### **README.md para o Backend Java (Projeto `iris-client`)**
-
-```markdown
 # Backend Java de Consumo de API de IA
 
 Este projeto é uma aplicação de backend, desenvolvida com **Spring Boot**, que consome uma API de machine learning externa (a API Python do projeto `iris-api`). Ele demonstra como integrar serviços de IA em uma aplicação Java.
@@ -45,7 +42,7 @@ Utilize uma ferramenta como **Postman** ou **Insomnia** para enviar uma requisi�
 - **URL**: `http://localhost:8080/api/v1/iris/predict`
 - **Método**: `POST`
 - **Corpo da Requisição (JSON)**:
-  ```json
+```json
   {
     "sepal_length": 5.1,
     "sepal_width": 3.5,
