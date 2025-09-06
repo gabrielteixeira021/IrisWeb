@@ -1,0 +1,66 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Maven
+/target/
+# log
+*.log
+# Arquivos temporários
+*.tmp
+
+# Classes compiladas
+*.class
+
+# Binários
+*.jar
+*.war
+*.ear
+
+# Pacotes
+/target/
+/bin/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de build
+build/
+out/
+/classes/
+
+# Arquivos de configuração de ambiente e segredos
+# (Para evitar que senhas e chaves sejam versionadas)
+.env
+*.properties
